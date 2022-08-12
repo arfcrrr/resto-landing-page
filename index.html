@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Landing Page</title>
+
+    <link rel="shortcut icon" href="assets/icons/ic_favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/js/bootstrap.min.js">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="m-0">
+        <div class="row d-flex flex-row justify-content-between align-items-center flex-wrap p-5">
+            <div class="col-auto p-0">
+                <div class="d-flex flex-row align-items-center navigation">
+                    <a href="#" class="link-nav">Home</a>
+                    <a href="#" class="link-nav">Category
+                        <span><img src="assets/icons/ic_chevron_down.svg" class="px-1"></span>
+                    </a>
+                    <a href="#" class="link-nav">Services</a>
+                    <a href="#" class="link-nav">About us</a>
+                </div>
+            </div>
+            <div class="col d-flex flex-row justify-content-center cursor-pointer"><img src="assets/icons/ic_logo.svg"></div>
+            <div class="col d-flex flex-row justify-content-end">
+                <!-- <input type="text" class="form-control w-50 mx-2" id="exampleInputText" aria-describedby="textHelp"> -->
+                <input type="text" name="search-keyword" id="keyword" class="input-form mx-2"
+                    placeholder="Search your favorite food">
+                <button type="button" class="btn-light-purple fw-semibold ms-2">Log In</button>
+            </div>
+        </div>
+    </nav>
+    <div class="card-headline position-absolute p-4 bg-white">
+        <div class="d-flex flex-row stars my-3">
+            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+            <h5 class="fw-semibold mx-1 my-0 color-yellow">5.0</h5>
+            <p class="my-0">(5.2K+)</p>
+        </div>
+        <h4 class="fw-semibold">Padang Restaurant</h4>
+        <p class="fw-semibold m-0 color-grey">IDR 49.999 - IDR 560.000</p>
+        <div class="d-flex flex-row align-items-center my-2">
+            <img src="assets/icons/ic_location.svg">
+            <p class="color-grey ms-2 my-0">Padang, Indonesia</p>
+        </div>
+        <button
+            class="fw-semibold btn-default btn-yellow d-flex flex-row justify-content-center px-4 py-3 mt-4 mb-3">Make
+            Reservation<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                    alt="Icon Chevron Right"></span></button>
+        <div class="d-flex flex-row">
+            <img src="assets/icons/ic_info.svg">
+            <p class="color-grey ms-2 my-0">No extra cost</p>
+        </div>
+    </div>
+    <div class="carousel-img d-flex flex-row mx-4">
+        <img src="assets/images/img_carousel_1.png" class="img-headline">
+        <img src="assets/images/img_carousel_1.png" class="img-headline">
+    </div>
+
+    <!-- Section Benefit -->
+    <section class="d-flex flex-column justify-content-center align-items-center">
+        <p class="color-purple fw-semibold text-uppercase">Special Benefit For You</p>
+        <h3 class="fw-semibold">Why Should Choose Us?</h3>
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center my-4">
+            <div class="card-custom d-flex flex-column align-items-center justify-content-between text-center">
+                <div class="card-content">
+                    <img src="assets/icons/ic_discount.svg" alt="Icon Discount">
+                    <h5 class="fw-semibold mt-4">Extra Discounts</h5>
+                    <p class="color-grey pt-2">Get your special discount by using our reservation</p>
+                </div>
+                <button
+                    class="w-100 fw-semibold btn-custom btn-yellow d-flex flex-row justify-content-center position-relative p-4 bottom-0 m-0">View
+                    Details<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+            <div class="card-custom d-flex flex-column align-items-center justify-content-between text-center">
+                <div class="card-content">
+                    <img src="assets/icons/ic_eat.svg" alt="Icon Discount">
+                    <h5 class="fw-semibold mt-4">Come and Eat</h5>
+                    <p class="color-grey pt-2">Get your own table quickly & without waiting in line</p>
+                </div>
+                <button
+                    class="btn-custom w-100 fw-semibold d-flex flex-row justify-content-center position-relative p-4 bottom-0 m-0">View
+                    Details<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+            <div class="card-custom d-flex flex-column align-items-center justify-content-between text-center">
+                <div class="card-content">
+                    <img src="assets/icons/ic_no_extra.svg" alt="Icon Discount">
+                    <h5 class="fw-semibold mt-4">No Extra Fee</h5>
+                    <p class="color-grey pt-2">Get tax free if you want to order food and make a reservation</p>
+                </div>
+                <button
+                    class="btn-custom w-100 fw-semibold d-flex flex-row justify-content-center position-relative p-4 bottom-0 m-0">View
+                    Details<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+            <div class="card-custom d-flex flex-column align-items-center justify-content-between text-center">
+                <div class="card-content">
+                    <img src="assets/icons/ic_clean.svg" alt="Icon Discount">
+                    <h5 class="fw-semibold mt-4">Guaranteed Cleanliness</h5>
+                    <p class="color-grey pt-2">We ensure the cleanliness of the place as well as the food</p>
+                </div>
+                <button
+                    class="btn-custom w-100 fw-semibold d-flex flex-row justify-content-center position-relative p-4 bottom-0 m-0">View
+                    Details<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Featured Restaurant -->
+    <section class="section">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex flex-column justify-content-between col-content">
+                    <div>
+                        <p class="color-purple fw-semibold text-uppercase">Top 3 Featured Restaurant</p>
+                        <h3 class="fw-semibold">Most Popular Restaurants</h3>
+                        <p class="color-grey my-4">The best restaurant in our opinion is how much customers like it in
+                            terms of place, price, comfort and of course the taste of
+                            the food itself.</p>
+                    </div>
+                    <div>
+                        <button
+                            class=" fw-semibold btn-default btn-yellow d-flex flex-row justify-content-center px-4 py-3 mt-4 mb-3">View
+                            All Restaurant<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                                    alt="Icon Chevron Right"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex flex-row">
+                <div>
+                    <img src="assets/images/img_resto_1.png" class="mx-2" alt="Image Restaurant">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card-resto resto-popular p-4 bg-white">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex flex-row stars my-3">
+                                            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+                                            <h5 class="fw-semibold mx-1 my-0 color-yellow">5.0</h5>
+                                            <p class="my-0">(7.6K+)</p>
+                                        </div>
+                                        <h5 class="fw-semibold">Bind Balorant</h5>
+                                        <div class="d-flex flex-row align-items-center my-2">
+                                            <img src="assets/icons/ic_location.svg">
+                                            <p class="color-grey ms-2 my-0">Jakarta, Indonesia</p>
+                                        </div>
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="assets/icons/ic_arrow.svg" alt="Icon Arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/images/img_resto_2.png" class="mx-2 img-resto" alt="Image Restaurant">
+                <img src="assets/images/img_resto_3.png" class="mx-2 img-resto" alt="Image Restaurant">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Restaurant Near You -->
+    <section class="section">
+        <div class="row">
+            <div class="d-flex flex-row justify-content-between col-content mb-3">
+                <div>
+                    <p class="color-purple fw-semibold text-uppercase">Restaurant Based By City</p>
+                    <h3 class="fw-semibold">Restaurant Near You</h3>
+                </div>
+                <button
+                    class="color-grey fw-semibold btn-default btn-light-grey d-flex flex-row justify-content-center px-4 py-3 mt-4 mb-3"><span><img
+                            src="assets/icons/ic_location.svg" class="me-2" alt="Icon Location"></span>Jakarta,
+                    Indonesia<span><img src="assets/icons/ic_chevron_down.svg" class="ms-2"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+            <div class="col d-flex flex-row justify-content-center flex-wrap">
+                <div>
+                    <img src="assets/images/img_resto_4.png" class="mx-2" alt="Image Restaurant">
+                    <div class="row">
+                        <div class="col p-0">
+                            <div class="card-resto resto-near p-4 bg-white">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex flex-row stars mb-3">
+                                            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+                                            <h5 class="fw-semibold mx-1 my-0 color-yellow">5.0</h5>
+                                            <p class="my-0">(6.6K+)</p>
+                                        </div>
+                                        <h5 class="fw-semibold">Batavia Restaurant</h5>
+                                        <h5 class="color-grey fw-semibold m-0">IDR 29.000 - IDR 259.999</h5>
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="assets/icons/ic_arrow.svg" alt="Icon Arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/img_resto_5.png" class="mx-2" alt="Image Restaurant">
+                    <div class="row">
+                        <div class="col p-0">
+                            <div class="card-resto resto-near p-4 bg-white">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex flex-row stars mb-3">
+                                            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+                                            <h5 class="fw-semibold mx-1 my-0 color-yellow">5.0</h5>
+                                            <p class="my-0">(3.6K+)</p>
+                                        </div>
+                                        <h5 class="fw-semibold">Split Ascent Restaurant</h5>
+                                        <h5 class="color-grey fw-semibold m-0">IDR 49.999 - IDR 560.000</h5>
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="assets/icons/ic_arrow.svg" alt="Icon Arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/img_resto_6.png" class="mx-2" alt="Image Restaurant">
+                    <div class="row">
+                        <div class="col p-0">
+                            <div class="card-resto resto-near p-4 bg-white">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex flex-row stars mb-3">
+                                            <img src="assets/icons/ic_star.svg" alt="Icon Star">
+                                            <h5 class="fw-semibold mx-1 my-0 color-yellow">5.0</h5>
+                                            <p class="my-0">(11K+)</p>
+                                        </div>
+                                        <h5 class="fw-semibold">Daza Fracture Restaurant</h5>
+                                        <h5 class="color-grey fw-semibold m-0">IDR 29.999 - IDR 560.000</h5>
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="assets/icons/ic_arrow.svg" alt="Icon Arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex flex-row justify-content-center">
+                <button class="fw-semibold btn-default btn-yellow px-4 py-3">View
+                    All Restaurant<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Experts -->
+    <section class="section-experts">
+        <div class="row">
+            <div class="col">
+                <img src="assets/images/img_chef.png" alt="Image Chef">
+                <div class="container-experience d-flex flex-column justify-content-center">
+                    <img src="assets/icons/ic_shield.svg" alt="Icon Shield">
+                    <h5 class="fw-semibold my-2">12 Years</h5>
+                    <p class="color-grey mb-0">Experience</p>
+                </div>
+                <div class="container-chef">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <img src="assets/images/img_resto_7.png" alt="Image Restaurant">
+                        </div>
+                        <div class="col-auto">
+                            <p class="color-grey mb-2">Chef at restaurant:</p>
+                            <h5 class="fw-semibold">Pearl Dolphin</h5>
+                            <p class="fw-semibold color-yellow mt-4">View Details <span><img
+                                        src="assets/icons/ic_chevron_right_yellow.svg" class="ms-1"
+                                        alt="Icon Chevron"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-4">
+                    <p class="color-purple fw-semibold text-uppercase">Top 4 Expert Chefs</p>
+                    <h3 class="fw-semibold">Expert Chefs in Fuddy</h3>
+                </div>
+                <div class="d-flex flex-column justify-content-start">
+                    <div class="card-list bg-white d-flex flex-row justify-content-between align-items-center my-2">
+                        <div class="d-flex flex-column justify-content-start">
+                            <p class="color-grey fw-medium text-uppercase m-0">pizza</p>
+                            <h5 class="fw-semibold my-2">Phoenix Satcheup</h5>
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="assets/icons/ic_location.svg">
+                                <p class="color-grey ms-2 my-0">Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                        <p class="fw-semibold color-yellow mt-4 cursor-pointer">Profile Details<span><img
+                                    src="assets/icons/ic_chevron_right_yellow.svg" class="ms-1"
+                                    alt="Icon Chevron"></span></p>
+                    </div>
+                    <div class="card-list d-flex flex-row justify-content-between align-items-center my-2">
+                        <div class="d-flex flex-column justify-content-start">
+                            <p class="color-grey fw-medium text-uppercase m-0">vegan</p>
+                            <h5 class="fw-semibold my-2">Chamber Botfrag</h5>
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="assets/icons/ic_location.svg">
+                                <p class="color-grey ms-2 my-0">Bandung, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-list d-flex flex-row justify-content-between align-items-center my-2">
+                        <div class="d-flex flex-column justify-content-start">
+                            <p class="color-grey fw-medium text-uppercase m-0">roast chicken</p>
+                            <h5 class="fw-semibold my-2">Asep Vandal</h5>
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="assets/icons/ic_location.svg">
+                                <p class="color-grey ms-2 my-0">Sunda, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-list d-flex flex-row justify-content-between align-items-center my-2">
+                        <div class="d-flex flex-column justify-content-start">
+                            <p class="color-grey fw-medium text-uppercase m-0">beef steak</p>
+                            <h5 class="fw-semibold my-2">I Made Invoker</h5>
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="assets/icons/ic_location.svg">
+                                <p class="color-grey ms-2 my-0">Bali, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="fw-semibold btn-default btn-yellow px-4 py-3 mt-4">View
+                    All Chef<span class="ms-2"><img src="assets/icons/ic_chevron_right.svg"
+                            alt="Icon Chevron Right"></span></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
